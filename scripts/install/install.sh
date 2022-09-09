@@ -285,6 +285,7 @@ cd "${basedir}"/freeciv && \
   handle_error 5 "Failed to install freeciv"
 
 echo "==== Downloading space tileset ===="
+rm -r "${basedir}"/freeciv-space
 git clone https://github.com/AlexusBlack/freeciv-space-tileset.git "${basedir}"/freeciv-space
 # Replacing Amplio2 tileset with Space tileset with minimum code changes
 cp "${basedir}"/freeciv-space/space.tilespec "${basedir}"/freeciv/freeciv/data/amplio2.tilespec
