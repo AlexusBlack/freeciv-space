@@ -81,3 +81,7 @@ tests/screenshot*.png
 .freeciv_index
 .idea
 *.iml
+
+# FreeCiv Space #
+freeciv-space/
+freeciv/meson-install/
